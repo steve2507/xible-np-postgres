@@ -1,0 +1,21 @@
+{
+  "name": "postgres.query",
+  "type": "action",
+  "description": "Executes a query against a postgres database.",
+  "inputs": {
+    "trigger": {
+      "type": "trigger"
+    },
+    "postgres": {
+      "type": "postgres"
+    }
+  },
+  "outputs": {
+    "done": {
+      "type": "trigger"
+    },
+    "rows": {
+      "type": "object"
+    }
+  }
+}

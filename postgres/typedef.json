@@ -1,0 +1,6 @@
+{
+  "postgres": {
+    "color": "#336791",
+    "extends": "object"
+  }
+}

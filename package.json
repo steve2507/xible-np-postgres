@@ -1,0 +1,31 @@
+{
+  "name": "xible-np-postgres",
+  "description": "Set of nodes to interact with Postgres databases.",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": {
+    "name": "Stefan de Jong"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/steve2507/xible-np-postgres"
+  },
+  "bugs": {
+    "url": "https://github.com/steve2507/xible-np-postgres/issues",
+    "email": "stefan.de.jong@xible.io"
+  },
+  "keywords": [
+    "xible",
+    "nodepack",
+    "postgres",
+    "postgresql",
+    "sql",
+    "database"
+  ],
+  "scripts": {
+    "prepublishOnly": "npm shrinkwrap --only=prod"
+  },
+  "dependencies": {
+    "pg": "*"
+  }
+}

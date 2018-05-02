@@ -1,0 +1,11 @@
+{
+  "name": "postgres",
+  "type": "object",
+  "description": "Database connection",
+  "outputs": {
+    "postgres": {
+      "type": "postgres"
+    }
+  },
+  "vault": ["host", "database", "port", "user", "password"]
+}
